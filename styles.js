@@ -168,3 +168,15 @@ export const ContainerDiv3Icons = styled.div`
     margin-right: 12px;
   }
 `;
+
+export const InputTextArea = styled.textarea`
+  color: #aeaeae !important;
+  background-color: #fff !important;
+  border: 1px solid #aeaeae !important;
+  border-radius: 5px !important;
+  resize: none;
+  width: 500px;
+  text-indent: 10px;
+  padding-top: 10px;
+  height: 220px;
+`;
