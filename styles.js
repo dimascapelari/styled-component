@@ -1,5 +1,43 @@
 import styled from "styled-components";
 
+export const ButtonForm = styled(Link)`
+  background-color: #002c43;
+  color: #fff;
+  font-family: "Source Sans Pro" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 199px;
+  height: 58px;
+
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    width: 180px;
+    height: 45px;
+    font-size: 20px !important;
+    padding: 7px !important;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1537px) {
+    width: 180px;
+    height: 45px;
+    font-size: 20px !important;
+    padding: 7px !important;
+  }
+
+  :hover {
+    background: none;
+    color: #002c43;
+    outline: 1px solid #002c43;
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+`;
+
 export const ContainerFooter = styled.div`
   width: 100%;
   height: 340px;
