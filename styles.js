@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const Image = styled.img`
+  height: 100%;
+
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    height: 440px;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1537px) {
+    height: 500px;
+  }
+`;
+
 export const ButtonForm = styled(Link)`
   background-color: #002c43;
   color: #fff;
