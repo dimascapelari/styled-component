@@ -11,8 +11,55 @@ export const Image = styled.img`
     height: 500px;
   }
 `;
+ 
+// <ButtonV
+//             activeClass="active"
+//             className="clickpointer clickButtonMotives"
+//             to="sct-formularios"
+//             spy={true}
+//             smooth={true}
+//             duration={500}
+//           >
+//             Abrir
+//   </ButtonV>
 
-export const ButtonForm = styled(Link)`
+export const ButtonV = styled(Link)`
+  color: #fff !important;
+  font-family: "Source Sans Pro" !important;
+  font-size: 24px;
+  font-weight: 600 !important;
+  width: 199px !important;
+  height: 58px;
+  background: #002c43;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1537px) {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  :hover {
+    font-family: "Source Sans Pro";
+    background-color: #fff;
+    border: 1px solid #002c43 !important;
+    text-decoration: none !important;
+    color: #002c43 !important;
+  }
+`;
+
+export const ButtonF = styled(Link)`
   background-color: #002c43;
   color: #fff;
   font-family: "Source Sans Pro" !important;
