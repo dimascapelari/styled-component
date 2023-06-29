@@ -1,5 +1,34 @@
 import styled from "styled-components";
 
+// InputTextArea
+const inputStyles = css`
+  color: #aeaeae;
+  background-color: #fff;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+  resize: none;
+  width: 500px;
+  text-indent: 10px;
+  padding-top: 10px;
+  height: 220px;
+  margin-left: 10px;
+
+  &:hover {
+    border-color: #212121;
+  }
+`;
+
+export const InputTextArea = styled.textarea`
+  ${inputStyles}
+
+  &:focus {
+    outline: none;
+    border-color: #58c5c6;
+  }
+`;
+// ------
+
+
 export const Image = styled.img`
   height: 100%;
 
