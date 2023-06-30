@@ -26,7 +26,7 @@ export const InputTextArea = styled.textarea`
     border-color: #58c5c6;
   }
 `;
-// ------
+// ----------------------------------
 
 
 export const Image = styled.img`
