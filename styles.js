@@ -1,7 +1,6 @@
 import styled from "styled-components";
 //  import styled from "vue3-styled-component";
 
-
 export const ContainerClass = styled.div`
   .nome-da-classe{
   color: red;
